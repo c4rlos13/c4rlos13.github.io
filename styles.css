@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+ --color1: #021c31;
+ --color2: #004161;
+ --color3: #015f81;
+ --color4: #00b0de;
+ --color5: #00fcff;
+ --color6: #fff;
+}
+body {
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color2);
+}
+
+header{
+    display: flex;
+    background-color: #1E374B;
+    color: #fff;
+    padding: 20px 0;
+    padding-left: 50px;
+    max-height: 30px;
+} 
+
+nav{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navlinks{
+    font-family: lato;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navlinks:hover{
+    color: var(--color1);
+    text-decoration: underline;
+}
+
+.about{
+    padding: 50px 0;
+    background-color: var(--color2);
+}
+
+.container {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+}
+
+.txtleft {
+    float: left;
+    font-size: 20px;
+    width: 70%; 
+}
+.textexp{
+    font-size: 80px;
+}
+
+.imagem-redonda {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+    
+.footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .logos{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .logos a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .logos a:hover{
+    color:#fff;
+    }
+
+    .footer .logos a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+}
+
+
+#experiencias2 {
+    background-color: var(--color3);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60vh;
+    min-height: 50vh;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container2 h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.experiencia {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.txtxp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.listaexp{
+    text-align: left;
+    padding-left: 100px;
+}
+.maissobremim{
+    background-color: var(--color2);
+    margin: 50px;
+    font-size: 30px;
+}
+
+.listasobre{
+    font-size: 20px;
+}
